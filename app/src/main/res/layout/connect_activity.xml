@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="17dp"
+            android:text="C O N N E C T"
+            android:textColor="	#88BBBE"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:text="With those that could use your help."
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:layout_below="@id/textView"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="131dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/textView2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/community" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/textView6"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginRight="25dp"
+            app:srcCompat="@drawable/educated" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="184dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/illustration" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="177dp"
+            android:layout_height="145dp"
+            android:layout_below="@+id/textView2"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="13dp"
+            android:text="Through education, awareness, and discussion, the way mental health is approached can improve. Communities provide a safe space for those struggle from mental health issues and are currently seeking help." />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="150dp"
+            android:layout_height="161dp"
+            android:layout_below="@id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:text="Addressing the topic of mental health and providing the proper aid can be difficult. By being better educated in multiple areas of Psychology, you can be a great support system for someone." />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="174dp"
+            android:layout_height="72dp"
+            android:layout_toEndOf="@+id/imageView3"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+
+            android:text="Make a positive impact in the life of those struggling with mental health." />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView10"
+         android:layout_marginLeft="16dp"
+        android:text="E X E R C I S E S + T I P S"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Meditation"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="364dp"
+        android:layout_below="@id/textView20"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Breathing Exercises"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="383dp"
+        android:layout_below="@id/textView23"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Yoga"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="421dp"
+        android:layout_below="@id/textView24"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Walks / Enjoying Nature"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="402dp"
+        android:layout_below="@id/textView25"/>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Socializing"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="440dp"
+        android:layout_below="@id/textView26"/>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Finding a Community"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="459dp"
+        android:layout_below="@id/textView27"/>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Positivity"
+        tools:layout_editor_absoluteX="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteY="478dp"
+        android:layout_below="@id/textView28"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Knitting / Drawing / Creativity"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="497dp"
+        android:layout_below="@id/textView29"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="68dp"
+        android:layout_height="93dp"
+        android:layout_below="@id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/phone"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="205dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/pond"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="546dp"
+        android:layout_below="@id/textView30"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

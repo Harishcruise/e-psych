@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebd9c6"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:text="E D U C A T I O N"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:id="@+id/moodBtn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_alignTop="@+id/imageView6"
+            android:background="@android:color/transparent"
+            android:onClick="Mood"
+
+           />
+
+        <Button
+            android:id="@+id/anxietyBtn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:onClick="Anxiety"
+            android:layout_below="@id/moodBtn"
+            />
+
+        <Button
+            android:id="@+id/autismBtn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/anxietyBtn"
+            android:background="@android:color/transparent"
+            android:onClick="Autism" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="250dp"
+            android:layout_height="450dp"
+            android:layout_below="@id/textView3"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="20dp"
+
+            app:srcCompat="@drawable/disorders" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

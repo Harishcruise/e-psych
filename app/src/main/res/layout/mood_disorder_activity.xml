@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#88BBBE"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What are Mood Disorders?"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageView12" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView15"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:text="When individuals have a dramatic change in their mood, they are happy and their mood changes to some type of depressing stage. Some of these disorders include:"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="--> Major depression, when individuals have no type of interest on what they used to do, leading to long term sadness."
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView17"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="--> Bipolar disorder, when have dramatic shifts in a person's mood, energy and ability to think clearly. "
+            android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Possible causes"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@id/textView18" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="--> Life crisis "
+        android:textSize="12sp"
+       android:layout_below="@id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="--> Imbalanced chemicals that affect your thinking"
+        android:textSize="12sp"
+       android:layout_below="@id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="How to respond"
+        android:textColor="#000000"
+        android:textStyle="bold"
+       android:layout_below="@id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="--> Counseling"
+        android:textSize="12sp"
+        android:layout_below="@id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:text="--> Psychotherapy to help individuals see their self worth and improve personal skills"
+        android:textSize="12sp"
+        android:layout_below="@id/textView23" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView24"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="--> Antidepressant medications
+     (consider as last option if possible)"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="94dp"
+            android:layout_height="143dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/mooddis" />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

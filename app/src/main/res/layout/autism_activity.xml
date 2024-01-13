@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="#08b6ce"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:text="What is Autism?"
+    android:textStyle="bold"
+    android:textColor="#000000"
+   android:layout_below="@id/imageView15" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="324dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:text="A developmental disorder that challenges individuals to communicate and social interact. Every individual who has autism is different, some may have more challenges and weakness than another "
+    android:textSize="12sp"
+    android:layout_below="@id/textView"/>
+
+<TextView
+    android:id="@+id/textView4"
+    android:layout_width="283dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:text="Possible causes"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:textColor="#000000"
+   android:layout_below="@id/textView3" />
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="395dp"
+    android:layout_height="32dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:text="Both genetic factors and environmental circumstances"
+    android:textSize="12sp"
+    android:layout_below="@id/textView4" />
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:text="Ways to Respond"
+    android:textColor="#000000"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+    android:layout_below="@id/textView5" />
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="5dp"
+    android:text="Stay Positive"
+    android:layout_below="@id/textView7" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:text="Be Supportive"
+    android:layout_below="@id/textView6" />
+
+<android.support.constraint.Guideline
+    android:id="@+id/guideline2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintGuide_begin="62dp" />
+
+<TextView
+    android:id="@+id/textView9"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginBottom="268dp"
+    android:text="Let your loved one know they have great potential"
+    android:layout_below="@id/textView8" />
+
+<ImageView
+    android:id="@+id/imageView15"
+    android:layout_width="108dp"
+    android:layout_height="143dp"
+   android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    app:srcCompat="@drawable/autism" />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
