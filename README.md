@@ -27,7 +27,7 @@ Voice Recognition (Android Speech API)
 Getting Started:
 To run the E-PSYCH app locally, follow these steps:
 
-Clone the repository: git clone [[Your Git Repository URL]](https://github.com/Harishcruise/e-psych)
+Clone the repository: git clone [Your Git Repository URL](https://github.com/Harishcruise/e-psych)
 Open the project in Android Studio.
 Configure necessary API keys:
 Microsoft Azure's Sentiment Analysis API key
