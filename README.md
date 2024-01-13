@@ -1,10 +1,35 @@
-# Mental Health App
-This app was targeted towards those who want to support those with mental health issues or those who want to seek help.
+Project Overview:
+E-PSYCH
 
-Our team created an Education tab which is used to educate the users on different kinds of mental health issues. We believe that in order for someone who support those who have mental health issues, they must first understand these issues.
+E-PSYCH is a comprehensive mental health support app aimed at providing users with educational resources, self-help features, and community connectivity. The app is designed to assist individuals seeking mental health support and those who wish to support others. With features such as sentiment analysis, voice recognition, and community outreach, the app strives to create a supportive and inclusive space for mental health awareness and well-being.
 
-The second tab which we created was the Self-Help tab. This was our main attraction during the hackathon. Self-Help allows the user to write how they are feeling at that moment. We used Microsoft Azure's Text Analytics to make sentiment analysis on the sentence(s) they write in that tab. This allows the app to rate the user's input from 0 to 1, how positive or negative they are feeling using AI, machine learning, and language processing. If the user's input is rated .5 or below, it will be considered negative and will trigger the next event purposed for those who are feeling negative emotions--giving them options or either seek help if they wish to speak to someone or ways to improve their mood. Similarly, if the user's input is rated above .5, it will trigger than event that allows the user to spread their happiness by connecting to a community for mental health or volunteering at such events.
+Features:
+Education Tab:
 
-Our final tab is the Connect tab, this is purposed for those who want to support those with mental health issues or be active in the mental health community as it displays different opportunities and places to reach out to show their support.
+Explore educational content on various mental health issues to foster understanding and empathy.
+Self-Help Tab with Sentiment Analysis:
 
-![main](imgs/main.png)
+Express emotions and receive sentiment analysis ratings to trigger appropriate responses and support options.
+Connect Tab:
+
+Discover opportunities and resources to support others dealing with mental health issues or actively participate in the mental health community.
+Integration with Dialogflow:
+
+Enable natural language processing for seamless and interactive conversational experiences.
+Voice Recognition:
+
+Interact with the app using spoken commands, enhancing accessibility and user engagement.
+Technologies Used:
+Android Studio
+Microsoft Azure's Sentiment Analysis API
+Dialogflow
+Voice Recognition (Android Speech API)
+Getting Started:
+To run the E-PSYCH app locally, follow these steps:
+
+Clone the repository: git clone [[Your Git Repository URL]](https://github.com/Harishcruise/e-psych)
+Open the project in Android Studio.
+Configure necessary API keys:
+Microsoft Azure's Sentiment Analysis API key
+Dialogflow API key
+Build and run the app on your Android device or emulator.
